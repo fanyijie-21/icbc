@@ -1,0 +1,138 @@
+.mainColle {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    padding: 30px 0;
+    background: #f2f2f2;
+}
+.w-center {
+    /* min-width: 1000px; */
+    margin: auto;
+    max-width: 1000px;
+}
+.mainColle .colleLeft {
+    width: 663px;
+    height: auto;
+    float: left;
+}
+.mainColle .colleRight {
+    width: 325px;
+    height: auto;
+    float: right;
+}
+.pfBox {
+    border: 1px solid #E5E5E5;
+    background: #FFFFFF;
+    padding: 15px 24px;
+}
+.pfBox .bTit {
+    background: url(//v.icbc.com.cn/userfiles/Resources/ICBC/grjr/images/2018/head_line1.png) no-repeat left center;
+    padding-left: 12px;
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #0d131a;
+    text-align: left;
+}
+.pfBox {
+    border: 1px solid #E5E5E5;
+    background: #FFFFFF;
+    padding: 15px 24px;
+}
+.mainColle .colleRight {
+    width: 325px;
+    height: auto;
+    float: right;
+}
+.mainColle .colleLeft .pfBox {
+    height: 268px;
+}
+.pfBox {
+    border: 1px solid #E5E5E5;
+    background: #FFFFFF;
+    padding: 15px 24px;
+}
+
+.pfBox .bImgs {
+    text-align: left;
+}
+.pfBox .bImgs ul {
+    margin-left: -20px;
+    zoom: 1;
+    overflow: hidden;
+}
+.pfBox .bImgs li {
+    width: 296px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0d131a;
+}
+a, body, img, li, ul {
+    border: 0;
+    outline: 0;
+}
+a:-webkit-any-link {
+    /* color: black; */
+    cursor: pointer;
+   
+}
+li {
+    list-style: none;
+}
+.pfBox .bImgs img {
+    width: 294px;
+    height: 138px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 10px;
+}
+fieldset, img {
+    border: 0;
+    display: block;
+}
+
+fieldset, img {
+    border: 0;
+    display: block;
+}
+a, body, img, li, ul {
+    border: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0d131a;
+}
+
+a:-webkit-any-link {
+    /* color: -webkit-link; */
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
+.pfBox .bImgs p {
+    padding: 15px 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d131a;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

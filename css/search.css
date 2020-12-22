@@ -1,0 +1,35 @@
+.search{
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.search-one{
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+.search .search-left{
+    display: inline-block;
+    margin-top: 20px;
+}
+.search-right .text{
+    width: 194px;
+    height: 35px;
+    line-height: 35px;
+    border:1px solid #e5e5e5;
+    outline: none;
+    color: #999999;
+    text-indent: 15px;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    right: 53px;
+}
+.search-right a{
+    width: 53px;
+    height: 37px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}

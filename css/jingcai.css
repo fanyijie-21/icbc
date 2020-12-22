@@ -1,0 +1,150 @@
+
+.mainColle {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    padding: 30px 0;
+    background: #f2f2f2;
+	position: relative;
+	margin: 0 auto;
+}
+.w-center {
+    width: 1000px;
+    margin: auto;
+}
+.autu{
+	width: 1900px;
+	margin: 0 auto;
+	
+}
+/* .mainColle .colleLeft .pfBox {
+    height: 268px;
+} */
+.pfBox {
+    border: 1px solid #E5E5E5;
+    background: #FFFFFF;
+    padding: 15px 24px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+	
+}
+.mainColle .colleLeft {
+    width: 663px;
+    height: auto;
+    float: left;
+}
+.mainColle .colleLeft .pfBox {
+    margin-left: 0;
+    height: 268px;
+    width: 660px;
+    /* position: absolute; */
+    left: 255px;
+}
+.pfBox .bTit {
+    background: url(//v.icbc.com.cn/userfiles/Resources/ICBC/grjr/images/2018/head_line1.png) no-repeat left center;
+    padding-left: 12px;
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #0d131a;
+    text-align: left;
+}
+.pfBox .bImgs {
+    text-align: left;
+}
+.pfBox .bImgs ul {
+    margin-left: -20px;
+    zoom: 1;
+    overflow: hidden;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.pfBox .bImgs li {
+    width: 296px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+	color: #000000;
+}
+.mainColle .colleRight {
+    width: 325px;
+    height: auto;
+    float: right;
+}
+.mainColle .colleRight .pfBox {
+    height: 111px;
+}
+.pfBox.mb15{
+	
+}
+.mb15 {
+    margin-bottom: 15px;
+}
+.pfBox {
+    border: 1px solid #E5E5E5;
+    background: #FFFFFF;
+    padding: 15px 24px;
+}
+.pfBox .bTit {
+    background: url(//v.icbc.com.cn/userfiles/Resources/ICBC/grjr/images/2018/head_line1.png) no-repeat left center;
+    padding-left: 12px;
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #0d131a;
+    text-align: left;
+}
+.pfBox .bList {
+    text-align: left;
+}
+.pfBox .bList ul {
+    border-top: 1px solid #E5E5E5;
+    padding: 10px 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.pfBox .bImgs img {
+    width: 294px;
+    height: 138px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 10px;
+	
+}
+fieldset, img {
+    border: 0;
+    display: block;
+}
+.pfBox .bImgs p {
+    padding: 15px 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d131a;
+}

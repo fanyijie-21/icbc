@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>个人金融</title>
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/search.css">
+		<link rel="stylesheet" href="css/nav.css">
+		<link rel="stylesheet" href="css/KV.css">
+		<link rel="stylesheet" href="css/notice.css">
+		<link rel="stylesheet" href="css/kuaijie.css">
+		<link rel="stylesheet" href="css/action.css">
+		<link rel="stylesheet" type="text/css" href="css/foot.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="css/jingcai.css" /> -->
+		<link rel="stylesheet" type="text/css" href="css/caijing.css"/>
+		<script src="js/js/jquery-1.8.2.js"></script>
+	</head>
+	<script type="text/javascript">
+
+
+
+
+
+	</script>
+	<body>
+
+		<div class="header">
+			<div class="header-one">
+				<div class="header-left">
+					<a href="#" class="header-left-one">个人客户</a>
+					<a href="#">企业客户</a>
+				</div>
+				<p>本网站支持IPv6</p>
+				<ul class="header-right">
+					<li><a href="#">全球主站</a></li>
+					<li><span>|</span></li>
+					<li><a href="#">分支机构</a></li>
+					<li><span>|</span></li>
+					<li><a href="#">服务价目表</a></li>
+					<li><span>|</span></li>
+					<li><a href="#">投资与咨询</a></li>
+					<li><span>|</span></li>
+					<li><a href="#">人才招聘</a></li>
+					<li><span>|</span></li>
+					<li><a href="#">繁体/EN</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="search">
+			<div class="search-one">
+				<div class="search-left">
+					<a href="#"><img src="img/logo.png" alt=""></a>
+				</div>
+				<div class="search-right">
+					<input class="text" placeholder="请输入关键字">
+					<a href="#"><img src="img/search_icon.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="nav-one">
+				<div id="nav-one-icbc">
+					<ul>
+						<li>
+							<span>|</span>
+							<a href="#">个人金融首页</a>
+						</li>
+						<li>
+							<span>|</span>
+							<a href="#">产品服务</a>
+						</li>
+						<li>
+							<span>|</span>
+							<a href="#">贵宾专享</a>
+						</li>
+						<li>
+							<span>|</span>
+							<a href="#">精彩推荐</a>
+						</li>
+						<li>
+							<span>|</span>
+							<a href="#">知识学苑</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			/*设置入口函数*/
+			$(function(){
+				//添加鼠标滚动事件
+				$(document).scroll(function(){
+					//设置一个悬停点 - 遇到nav这个div的时候
+					var stop = $(window).scrollTop();
+					//判断什么时候停
+					if(stop > $(".header").height()){
+						$(".nav").css({
+							//设置定位 - 固定定位
+							"position":"fixed",
+							"top":0 /* 设置的是依据当前这个nav的div的上边像素为0 - nav这个div开始的时候 */
+						});
+					}else{
+						//默认定位
+						$(".nav").css("position","static");
+					}
+				});
+			});
+		</script>
+		<div class="KV" id="kv-admain">
+			<div class="autu">
+				<div class="container">
+					<div class="KV-one">
+						<!-- <div class="container"> -->
+						<div class="slider">
+							<ul class="pic">
+								<li class="item active"><img src="./img/dong1.jpg"></li>
+								<li class="item"><img src="./img/dong2.jpg"></li>
+								<li class="item"><img src="./img/dong3.jpg"></li>
+							</ul>
+							<ul class="pointlist">
+								<li class="point active" data-index="0"></li>
+								<li class="point" data-index="1"></li>
+								<li class="point" data-index="2"></li>
+							</ul>
+							<button class="btn prev">
+								<</button> <button class="btn next">>
+							</button>
+						</div>
+
+
+						<div class="KV-enter">
+							<div class="enter-one">
+								<a href="http://127.0.0.1:8848/%E4%B8%AA%E4%BA%BA%E7%BD%91%E4%B8%8A%E9%93%B6%E8%A1%8C%E7%99%BB%E5%BD%95/%E4%B8%AA%E4%BA%BA%E7%BD%91%E4%B8%8A%E9%93%B6%E8%A1%8C%E7%99%BB%E5%BD%95/%E4%B8%AA%E4%BA%BA%E7%BD%91%E4%B8%8A%E9%93%B6%E8%A1%8C.html">
+									个人网上银行登录
+									<img src="img/enter1.1.png" alt="">
+								</a>
+							</div>
+							<div class="enter-two">
+								<table class="ke-zeroborder">
+									<tr>
+										<td><a href="http://127.0.0.1:8848/ICBC/%E6%B3%A8%E5%86%8C.html">注<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>册</a></td>
+										<td><a href="#">业务指南</a></td>
+										<td><a href="#">网&nbsp银&nbsp助&nbsp手</a></td>
+									</tr>
+									<tr>
+										<td><a href="#">客户端下载</a></td>
+										<td><a href="#">安全专区</a></td>
+										<td><a href="#">防范假网站</a></td>
+									</tr>
+								</table>
+							</div>
+							<div class="enter-three">
+								<a href="#">
+									企业网上银行登录
+									<img src="img/enter1.1.png" alt="">
+								</a>
+							</div>
+							<div class="enter-four">
+								<table class="ke-zeroborder">
+									<tr>
+										<td><a href="#">注<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>册</a></td>
+										<td><a href="#">业务指南</a></td>
+										<td><a href="#">网&nbsp银&nbsp助&nbsp手</a></td>
+									</tr>
+								</table>
+							</div>
+							<div class="enter-five">
+								<a href="http://127.0.0.1:8848/%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C%E7%94%B5%E5%95%86%E9%A1%B5%E9%9D%A2/%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C%E7%94%B5%E5%95%86%E9%A1%B5%E9%9D%A2/%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C%E7%94%B5%E5%95%86%E9%A1%B5%E9%9D%A2.html">
+									融e购电商平台
+								</a>
+							</div>
+							<div class="enter-six">
+								<table class="ke-zeroborder">
+									<tr>
+										<td><a href="#">个人商城</a></td>
+										<td><a href="#">企业商城</a></td>
+										<td><a href="#">扶贫馆</a></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script>
+
+			</script>
+			<div class="notice">
+				<div class="notice-one">
+					<p class="notice_lb">
+						<span>您当前位置：个人客户首页 > 个人金融首页</span>
+					</p>
+				</div>
+			</div>
+			<div class="kuaijie">
+				<div class="kuaijie-one">
+					<ul>
+						<li class="li1">
+							<div class="serveBoxTop"><img src="img/icon_quick1.png">
+								<p>存折查询</p>
+							</div>
+						</li>
+						<li class="li2">
+							<div class="serveBoxTop"><img src="img/fup3.png">
+								<p>扶贫馆</p>
+							</div>
+						</li>
+						<li class="li3">
+							<div class="serveBoxTop"><img src="img/shenqing.png">
+								<p>申请贷款</p>
+							</div>
+						</li>
+						<li class="li4">
+							<div class="serveBoxTop"><img src="img/kaihu.png">
+								<p>开户网点查询</p>
+							</div>
+							<div class="serveBoxBottom"></div>
+						</li>
+						<li class="li5">
+							<div class="serveBoxTop"><img src="img/yue.png">
+								<p>余额变动提醒</p>
+							</div>
+						</li>
+						<li class="li6">
+							<div class="serveBoxTop"><img src="img/cundai.png">
+								<p>存贷利率</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="action_T">
+				<div class="action-one">
+					<div class="action_T-tit"></div>
+					<div class="action_T-head">
+						<div class="action_T-text"><span><span style="display:none;">&nbsp;</span></span>
+							<p>人气产品</p>
+						</div>
+						<div class="action_T-di"></div>
+					</div>
+					<div class="action_T-tid"></div>
+					<div class="pinzhi">
+						<div class="pinzhi_nei">
+							<div class="pinzhi_nei_pic"><img src="img/qian.png"></div>
+							<div class="pinzhishenghuo">品质生活<br>提前享受</div>
+						</div>
+						<div class="pinzhi_neit"><a href="#">更多贷款</a></div>
+					</div>
+					<div class="yijia">
+						<div class="yijia_nei">
+							<img src="img/yijia.jpg">
+							<h3><a class="ershou" href="#">二手住房贷款</a></h3>
+							<p>房子是二手的，但生活不是...</p>
+							<div class="chakan">
+								<a href="#">查看详情</a>
+							</div>
+						</div>
+					</div>
+					<div class="action_T-tid"></div>
+					<div class="pinzhi">
+						<div class="pinzhi_nei">
+							<div class="pinzhi_nei_pic"><img src="img/duobian.png"></div>
+							<div class="pinzhishenghuo">多变主题<br>多彩生活</div>
+						</div>
+						<div class="pinzhi_neit"><a href="#">更多卡片</a></div>
+					</div>
+					<div class="yijia">
+						<div class="yijia_nei">
+							<img src="img/baby.jpg">
+							<h3><a class="ershou" href="#">宝贝成长卡</a></h3>
+							<p>家有宝贝 与爱童行</p>
+							<div class="chakan">
+								<a href="#">查看详情</a>
+							</div>
+						</div>
+					</div>
+					<div class="action_T-tid"></div>
+					<div class="pinzhi">
+						<div class="pinzhi_nei">
+							<div class="pinzhi_nei_pic"><img src="img/suixin.png"></div>
+							<div class="pinzhishenghuo">随心随意<br>想存就存</div>
+						</div>
+						<div class="pinzhi_neit"><a href="#">更多存款</a></div>
+					</div>
+					<div class="yijia">
+						<div class="yijia_nei">
+							<img src="img/zhu.jpg">
+							<h3><a class="ershou" href="#">定活通</a></h3>
+							<p>活期的便利 定期的收益 一个都不能少！</p>
+							<div class="chakan">
+								<a href="#">查看详情</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="mainColle">
+				<div class="w-center">
+					<div class="colleLeft" >
+						<div class="pfBox">
+							<div class="bTit">精彩推荐 </div>
+							<div class="bImgs">
+								<ul>
+									<li><a class="data-collecting-sign" href="#"
+										 target="_blank" data-collecting-wname="业内首创专注高校"><img src="./img/shouce.jpg">
+											<p>全面展示个人金融安全知识，保障您的账户资金安全。</p>
+										</a></li>
+									<li><a class="data-collecting-sign" href="#"
+										 target="_blank" data-collecting-wname="从申请学校到学成归国"><img src="./img/zhuomian.jpg">
+											<p>从申请学校到学成归国，全面满足您的各类金融需求。</p>
+										</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="colleRight">
+						<div class="pfBox mb15">
+							<div class="bTit"><a href="#" >个人结构性存款信息披露</a></div>
+							<div class="bList">
+								<ul>
+									<table class="ke-zeroborder" style="border-collapse:collapse;" cellspacing="0" cellpadding="0" border="0">
+										<tbody>
+											<tr style="height:32px;">
+												<td style="height:32px;width:13px;" valign="middle" align="center"><img src="//v.icbc.com.cn/userfiles/Resources/ICBC/grjr/images/2018/list_dian.png"
+													 width="6" height="6"></td>
+												<td style="width:317px;" valign="middle" align="left"><span class="ChannelSummaryList-insty"><a class="data-collecting-sign textzqsy"
+														 href="#" target="_blank">人民币结构性存款</a></span></td>
+											</tr>
+											<tr style="height:32px;">
+												<td style="height:32px;width:13px;" valign="middle" align="center"><img src="//v.icbc.com.cn/userfiles/Resources/ICBC/grjr/images/2018/list_dian.png"
+													 width="6" height="6"></td>
+												<td style="width:317px;" valign="middle" align="left"><span class="ChannelSummaryList-insty"><a class="data-collecting-sign textzqsy"
+														 href="#" target="_blank">外币结构性存款</a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									<style type="text/css">
+										.ChannelSummaryList-insty {
+											line-height: 150%;
+										}
+
+										.ChannelSummaryList-summary {
+											line-height: 160%;
+											color: #222;
+											text-decoration: none;
+										}
+									</style>
+								</ul>
+							</div>
+						</div>
+						<div class="pfBox" data-collecting-aname="个人金融首页知识学苑">
+							<div class="bTit">知识学苑 </div>
+							<div class="bList">
+								<ul>
+									<div>
+										<table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+											<tbody>
+												<tr style="height:32px;">
+													<td align="center" valign="middle" style="height:32px;width:13px;"><img src="//v.icbc.com.cn/userfiles/Resources/ICBC/grjr/images/2018/list_dian.png"
+														 width="6" height="6"></td>
+													<td align="left" valign="middle" style="width:315px;"><span style="line-height:150%"><a href="#" class="data-collecting-sign textzqsy">如何申请理财金账户？</a></span></td>
+												</tr>
+												<tr style="height:32px;">
+													<td align="center" valign="middle" style="height:32px;width:13px;"><img src="//v.icbc.com.cn/userfiles/Resources/ICBC/grjr/images/2018/list_dian.png"
+														 width="6" height="6"></td>
+													<td align="left" valign="middle" style="width:315px;"><span style="line-height:150%"><a href="#" class="data-collecting-sign textzqsy">“理财金账户”客户应该特别关注…</a></span></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+			<div class="footer">
+				<div class="w-center">
+					<ul>
+						<li><a href="#">网站声明</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">网站服务</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">网站地图</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">联系我行</a></li>
+						<li><span>|</span></li>
+						<li><span>服务热线95588</span></li>
+					</ul>
+					<span>中国工商银行版权所有</span>
+					<a href="#">京ICP证</a>
+					<a href="#">030247号</a>
+					<img src="./img/footer.png" alt="">
+				</div>
+			</div>
+	</body>
+	<script type="text/javascript">
+		$(".kuaijie-one ul li").mouseenter(function() {
+			$(this).css("opacity", 1);
+			$(this).siblings().css("opacity", 0.3);
+			console.log($(this).siblings());
+		})
+		$(".kuaijie-one").mouseleave(function() {
+			$(this).find("li").css("opacity", 1);
+		});
+
+
+
+		let items = document.querySelectorAll('.item'); //图片
+		let points = document.querySelectorAll('.point'); //圆点
+		let btnPrev = document.querySelector('.prev');
+		let btnNext = document.querySelector('.next');
+		let time = 0; //定时器时间参数
+
+		let index = 0;
+
+		//清除图片和圆点的active类
+		function clearActive() {
+			for (let i = 0; i < items.length; i++) {
+				items[i].className = 'item';
+				points[i].className = 'point';
+			}
+		}
+
+		//跳到索引页
+		function goIndex() {
+			clearActive();
+			items[index].className = 'item active';
+			points[index].className = 'point active';
+		}
+
+		//跳到下一页
+		function goNext() {
+			if (index < items.length - 1) {
+				index++;
+			} else {
+				index = 0;
+			}
+
+			goIndex();
+		}
+
+		//跳到上一页
+		function goPrev() {
+			if (index == 0) {
+				index = items.length - 1;
+			} else {
+				index--;
+			}
+
+			goIndex();
+		}
+
+		//绑定next点击事件
+		btnNext.addEventListener('click', function() {
+			goNext();
+			time = 0;
+		});
+
+		//绑定prev点击事件
+		btnPrev.addEventListener('click', function() {
+			goPrev();
+			time = 0;
+		});
+
+		//点击圆点跳转到对应图片
+		for (let i = 0; i < items.length; i++) {
+			points[i].addEventListener('click', function() {
+				let pointIndex = points[i].getAttribute('data-index');
+				index = pointIndex;
+				goIndex();
+				time = 0;
+			})
+		}
+
+		//自动轮播定时器
+		setInterval(function() {
+			time++;
+			if (time == 30) {
+				goNext();
+				time = 0;
+			}
+		}, 100);
+	</script>
+</html>

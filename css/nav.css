@@ -1,0 +1,33 @@
+.nav{
+    height: 45px;
+    width: 100%;
+    background-color: #c7000b;
+	z-index: 1000;
+}
+.nav-one{
+    width: 1000px;
+    height: 45px;
+    margin: 0 auto;
+}
+.nav .nav-one ul{
+    list-style: none;
+}
+.nav .nav-one li{
+    float: left;
+    font: normal 18px/45px "微软雅黑";
+    color: #ffffff;
+}
+.nav .nav-one span{
+    color: rgba(3, 3, 3, 0.281);
+}
+.nav .nav-one a{
+    display: inline-block;
+    width: 130px;
+    height: 44px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+.nav .nav-one a:hover{
+    background-color:rgb(182, 35, 35);
+}

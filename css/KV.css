@@ -1,0 +1,170 @@
+.KV{
+    height: 380px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.KV .KV-one{
+    width: 1900px;
+    height: 380px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+/* .KV .KV-lunbo{
+    overflow: hidden;
+}
+.KV .KV-lunbo img{
+    text-align: center;
+} */
+/* .KV .KV-enter .KV-one .KV-enter {
+	z-index: 100;
+} */
+
+
+
+.KV .KV-enter{
+    width: 220px;
+    height: 280px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 34px 30px 26px 30px;
+    position: absolute;
+    top: 20px;
+    left: 260px;
+	z-index: 100;
+	
+}
+.enter-one a,.enter-three a,.enter-five a{
+    display: block;
+    width: 190px;
+    height: 43px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    line-height: 43px;
+    padding-left: 30px;
+}
+.enter-one a{
+    background: url(../img/enter1.png);
+}
+.enter-three a{
+    margin-top: 10px;
+    background:url(../img/enter2.png);
+}
+.enter-five a{
+    margin-top: 10px;
+    background:url(../img/enter3.png);
+}
+.enter-one img,.enter-three img {
+    margin-left: 25px;
+}
+
+.KV-enter .enter-two,.KV-enter .enter-four,.KV-enter .enter-six{
+    width: 220px;
+    margin-top: 10px;
+}
+.KV-enter table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: inherit;
+}
+.KV-enter table tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.KV-enter table td{
+    font-size: 12px;
+    width: 79px;
+    text-align: center;
+    height: 22px;
+    cursor: pointer;
+}
+.KV-enter .enter-two a,.KV-enter .enter-four a,.KV-enter .enter-six a{
+    color: black;
+    text-decoration: none;
+}
+.KV-enter .enter-two a:hover,.KV-enter .enter-four a:hover,.KV-enter .enter-six a:hover{
+    color:red;
+}
+
+
+
+
+
+.container {
+    width: 100%;
+    height: 400px;
+   /* margin-left: 0px;
+    margin-right: auto; */
+	
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+   /* position: relative; */
+    /* margin-top: 30px; */
+}
+
+.slider img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.slider ul.pic {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+    margin: 0;
+}
+
+.slider .item {
+   position: absolute;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.slider .btn {
+    width: 50px;
+    height: 100px;
+   position: absolute;
+    top: 150px;
+    font-size: 40px;
+    background: rgba(0,0,0,0.1);
+    border: 0;
+    outline: 0;
+    z-index: 100;
+}
+
+.slider .next {
+    right: 380px;
+}
+
+.item.active {
+    z-index: 10;
+    opacity: 1;
+}
+
+.slider ul.pointlist {
+    list-style: none;
+    position: absolute;
+    right: 465px;
+    bottom: 0;
+    z-index: 100;
+}
+
+.point {
+    width: 40px;
+    height: 3px;
+    background: red;
+    border-radius: 10%;
+    float: left;
+    margin-left: 30px;
+	margin-bottom: 20px;
+    border: 1px solid white;
+}
+
+.point.active {
+    background: orange;
+}

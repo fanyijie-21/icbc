@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>中国银行-注册</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/zhuce.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="css/css.css"/> -->
+	<script src="js/js/jquery-1.8.2.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		function getRndInteger(min, max) {
+			return Math.floor(Math.random() * (max - min)) + min;
+		}
+
+		function reset1() {
+			document.all.custNameTmp.value = "";
+			if (false) {
+				clearData("KeyPart");
+			} else {
+				document.getElementById("KeyPart").clear();
+			}
+			document.all.credType.value = "xx"
+		}
+	</script>
+	<body>
+		<table width="778" border="0" cellspacing="0" cellpadding="0" align="center" height="100">
+			<tbody>
+				<tr valign="middle">
+					<td colspan="2" height="20"></td>
+				</tr>
+				<tr valign="middle">
+					<td></td>
+					<td align="right">
+					</td>
+				</tr>
+				<tr valign="middle">
+					<td width="40%"><img src="./img/icbc.png" width="350" height="48"></td>
+					<td width="60%" align="left">
+						<font style="font-size: 22px" color="#333">&nbsp;&nbsp;|&nbsp;&nbsp;<b>注册</b></font>
+					</td>
+				</tr>
+				<tr valign="middle">
+					<td colspan="2">
+						<hr color="#c7000b">
+					</td>
+				</tr>
+				<tr valign="middle">
+					<td colspan="2" height="20"></td>
+				</tr>
+				<tr align="center">
+					<td align="center" height="20" colspan="2">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<table border="0" cellspacing="0" cellpadding="0" align="center">
+			<tr>
+				<td height="45" width="40%" align="right">姓名：</td>
+				<td width="50%">
+					<input type="text" id="custNameTmp">
+				</td>
+				<td height="45" width="10%">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td height="45" align="right">证件类型：</td>
+				<td>
+					<select name="credType">
+						<option value="xx">请 选 择</option>
+						<option selected="selected" value="0">身份证</option>
+						<option value="">护照</option>
+						<option value="">军官证</option>
+						<option value="">士兵证</option>
+						<option value="">港澳台往来通行证</option>
+						<option value="">临时身份证</option>
+						<option value="">户口簿</option>
+						<option value="">警官证</option>
+						<option value="">外国人永久居留证</option>
+						<option value="">边民出入境通行证</option>
+						<option value="">其他</option>
+					</select>
+				</td>
+				<td height="45" width="10%">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td height="45" align="right">证件号码：</td>
+				<td>
+					<input type="text" id="credNum" name="credNum">
+				</td>
+				<td height="45">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td height="45" align="right">手机号码：</td>
+				<td>
+					<input type="text" id="phoneNum" name="phoneNum" required>
+				</td>
+				<td height="45">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td height="45" align="right">
+					<nobr>
+						<font color="#ff0000">*</font>请输入验证码：
+					</nobr>
+				</td>
+				<td>
+					<input type="text" name="" id="" value="" />
+					<button onclick="document.getElementById('demo').innerHTML = getRndInteger(1000,10001)">刷新验证码</button>
+					<p id="demo"></p>
+				</td>
+			</tr>
+		</table>
+		<table align="center" border="0" cellspacing="0" cellpadding="0" width="740">
+			<tr>
+				<td align="center">温馨提示：如果您还不是我行客户，请输入一张他行卡的柜面预留手机号作为您的注册手机号。</td>
+			</tr>
+		</table>
+
+		<table width="778" border="0" cellspacing="10" cellpadding="1" align="center">
+			<tbody>
+			<tbody>
+				<tr>
+					<td height="40" align="right">
+						<div class="n_btn" onclick="javascript:check();">
+							<nobr>下一步</nobr>
+						</div>
+					</td>
+					<td height="40" align="left">
+						<div class="n1_btn" onclick="javascript:reset1();">
+							<nobr>重置</nobr>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		</tbody>
+		</table>
+
+		<table width="700" border="0" cellspacing="0" cellpadding="0" align="center">
+			<tbody>
+				<tr align="center">
+					<td colspan="2" height="20"></td>
+				</tr>
+				<tr align="center">
+					<td>
+						<font color="bc0021">请与我们联系 <a href="mailto:webmaster@icbc.com.cn">webmaster@icbc.com.cn</a> 中国工商银行版权所有</font>
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="2" style="font-size:10px; -webkit-transform:scale(0.8); padding: 50px 0px 0px 0px;">本网站支持IPv6</td>
+					<td colspan="2" height="20">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

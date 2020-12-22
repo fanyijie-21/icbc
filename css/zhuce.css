@@ -1,0 +1,55 @@
+div.n_btn{
+	width: 120px;
+	height:30px; 
+	line-height:30px; 
+	background-color:#f4743f; 
+	font-size:16px;
+	color:#fff;
+	text-align: center; 
+	border: 0 none; 
+	cursor: pointer; 
+	min-width:30px; 
+	margin:0;
+	font-weight:bold;
+	font-family: 'microsoft yahei', Arial, Helvetica, sans-serif;
+}
+div.n_btn button{
+	border: 0px;
+	background-color: #F4743F;
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+	font-family: 'microsoft yahei', Arial, Helvetica, sans-serif;
+	cursor: pointer; 
+}
+div.n1_btn{
+	width: 120px;
+	height:30px; 
+	line-height:30px; 
+	background-color:#ececec; 
+	font-size:16px;
+	color:#333;
+	text-align: center; 
+	border: 1px solid #cdcdcd; 
+	cursor: pointer; 
+	min-width:30px; 
+	margin:0;
+	font-weight:bold;
+	font-family: 'microsoft yahei', Arial, Helvetica, sans-serif;
+}
+div.n1_btn button{
+	border: 0px;
+	background-color:#ececec;
+	font-size:16px;
+	font-weight:bold;
+	font-family: 'microsoft yahei', Arial, Helvetica, sans-serif;
+	cursor: pointer; 
+}
+#demo{
+	float: right;
+	text-align: center;
+	background-color: #003EFF;
+	margin-top: auto;
+	width: 40px;
+	height: 24px;
+}
